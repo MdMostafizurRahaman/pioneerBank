@@ -17,8 +17,15 @@
             <br>
             <input type="password" class="form-control" placeholder="Password">
             <br>
-            <button class="btn btn-success">Enter</button>
+            <button id="login" class="btn btn-success">Enter</button>
         </div>
     </div>
+
+    <script>
+        const loginBtn = document.getElementById("login")
+        loginBtn.addEventListener("mousemove", function(){
+            console.log("Amake click marse")
+        })
+    </script>
 </body>
 </html>
