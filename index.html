@@ -23,8 +23,9 @@
 
     <script>
         const loginBtn = document.getElementById("login")
-        loginBtn.addEventListener("mousemove", function(){
-            console.log("Amake click marse")
+        loginBtn.addEventListener("click", function(){
+            const loginArea = document.getElementById("login-area")
+            loginArea.style.display = "none"
         })
     </script>
 </body>
